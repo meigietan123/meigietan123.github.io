@@ -1,0 +1,183 @@
+body {
+  font-family: "Thasadith"; "Comic Sans MS"; "ComicSansMS";
+  line-height: 1.4em;
+  background-color: teal;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+	color: purple;
+	font-size: 60px;
+	font-family: Coiny;
+	padding: 50px;
+}
+
+h2 {
+	color: lightskyblue;
+	text-decoration: underline;
+	font-size: 40px;
+	background-color: midnightblue;
+	padding: 20px;
+	text-align: center;
+}
+
+h3 {
+	color: slateblue;
+	font-size: 40px;
+	background-color: aquamarine;
+	padding: 20px;
+}
+
+header {
+		color:purple;
+		text-align: center;
+		padding: 70px 
+		margin-bottom: 50px;
+}
+
+section img {
+			width: 200px;
+}
+
+#unique {
+		border-radius: 120px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+}
+	
+section p {
+	color: purple;
+	font-size: 16px;
+}
+
+header p {
+		  color: white;
+		  font-size: 20px;
+		  padding: 20px;
+		  font-family: Charm;
+}
+
+#intro {
+		font-family: Coiny;
+		font-size: 30px;
+		color: midnightblue;
+		text-align: center;
+		padding: 20px;
+}
+
+#greet {
+		font-size: 50px;
+		font-family: Coiny;
+}
+
+.nature {
+		font-size: 25px;
+		color: blue;
+		background-color: lightblue;
+		padding: 20px;
+}
+
+.environment {
+			font-size: 25px;
+			color: red;
+			background-color: lightpink;
+			padding: 20px;
+}
+
+#health {
+		font-size: 25px;
+		color: blue;
+		background-color: aqua;
+		padding: 20px;
+}
+
+.hobbies {
+	 color: darkorange;
+	 font-size: 25px;
+}
+blockquote {
+		color: darkgreen;
+		font-size: 30px;
+		font-family: Charm;
+		text-align: center;
+		padding: 20px;
+}
+
+.food {
+		color: red;
+		font-size: 30px;
+		font-family: happymonkey;
+		text-align: center;
+}
+
+.foodimg {
+		width: 200px;
+}
+
+/* Layout styles */
+#logo {
+	width: 30px;
+}
+
+#logoheader nav {
+	height: 100px;
+}
+
+nav ul li {
+	display: inline-block;
+	float: right;
+	width: 30%;
+}
+
+
+
+
+
+/* Add colored borders and margin/padding */
+article, nav, section, aside, footer, .container {
+	border: 2px solid lightblue;
+	padding: 10px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+#logoheader {
+	border: 2px solid darkmagenta;
+	box-sizing: border-box;
+}
+
+section {
+	background-color: lavender;
+	margin-bottom:  40px;
+	padding: 15px;
+	border: 2px dashed rebeccapurple;
+}
+footer {
+	border-color: white;
+}
+article {
+	border-color:lightpink;
+}
+aside {
+	border-color: yellow;
+}
+nav {
+	border-color: lightblue;
+}
+
+#bigheader {
+		background-image: url('images/grandcanyon-image.jpg');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		height: 400px;
+		color:purple;
+		text-align: center;
+		margin-bottom: 80px;
+		box-sizing: border-box;		
+}
